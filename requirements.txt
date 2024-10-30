@@ -8,3 +8,5 @@ fpdf==1.7.2
 rembg==2.0.50
 Werkzeug==2.0.1
 pathlib==1.0.1
+setuptools>=45.0.0
+jaraco.text>=3.7.0

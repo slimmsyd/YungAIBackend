@@ -1,0 +1,121 @@
+# This file specifies files that are *not* uploaded to Google Cloud
+# using gcloud. It follows the same syntax as .gitignore, with the addition of
+# "#!include" directives (which insert the entries of the given .gitignore-style
+# file at that point).
+#
+# For more information, run:
+#   $ gcloud topic gcloudignore
+#
+.gcloudignore
+# If you would like to upload your .git directory, .gitignore file or files
+# from your .gitignore file, remove the corresponding line
+# below:
+.git
+.gitignore
+
+# Python pycache:
+__pycache__/
+# Ignored by the build system
+/setup.cfg
+
+# Additional recommended exclusions:
+*.pyc
+.DS_Store
+.env
+.env.*
+*.log
+.vscode/
+.idea/
+*.swp
+*.swo
+node_modules/
+venv/
+env/
+.pytest_cache/
+htmlcov/
+coverage/
+.coverage
+.tox/
+.nox/
+*.egg-info/
+dist/
+build/
+tmp/
+temp/
+downloads/
+uploads/
+*.sqlite
+*.db
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+cython_debug/
+
+# Development files
+tests/
+test/
+docs/
+*.md
+*.rst
+*.txt
+!requirements.txt
+*.yaml
+!app.yaml
+*.yml
+!cloudbuild.yaml
+
+# Version control
+.git/
+.gitignore
+.gitattributes
+.hg/
+.hgignore
+.svn/
+
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+*.tmproj
+*.esproj
+nbproject/
+*.launch
+.classpath
+
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Backup files
+*.bak
+*.backup
+*~
+*.swp
+*.swo
